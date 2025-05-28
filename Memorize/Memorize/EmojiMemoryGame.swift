@@ -1,10 +1,3 @@
-//
-//  EmojiMemoryGame.swift
-//  Memorize
-//
-//  codes from CS193p Instructor, modified by Chenqin Zhang on 2024/03/19
-//
-
 import SwiftUI
 
 class EmojiMemoryGame: ObservableObject {
@@ -45,8 +38,7 @@ class EmojiMemoryGame: ObservableObject {
     var cards: Array<MemoryGame<String>.Card> {
         return model.cards
     }
-    
-    // MARK: - Intents
+
     
     func shuffle() {
         model.shuffle()
