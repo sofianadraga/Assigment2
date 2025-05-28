@@ -1,16 +1,8 @@
-//
-//  ThemeStore.swift
-//  Memorize
-//
-//  Created by Chenqin zhang on 2024/3/19.
-//
-
 import Foundation
 import SwiftUI
 
 struct ThemeStore {
     
-    // the themeId would be 0 to 5, so we have 6 distinct themes
     func choseTheme(themeId: Int, nPairs: Int) -> Theme {
         switch themeId {
         case 0:
